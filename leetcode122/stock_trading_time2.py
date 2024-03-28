@@ -61,11 +61,14 @@ if __name__ == '__main__':
     prices = [7,1,5,3,6,4]
     solution = Solution()
     assert solution.maxProfit(prices) == 7
+    assert solution.maxProfit2(prices) == 7
 
     prices = [1,2,3,4,5]
     assert solution.maxProfit(prices) == 4
+    assert solution.maxProfit2(prices) == 4
 
     prices = [7,6,4,3,1]
     assert solution.maxProfit(prices) == 0
+    assert solution.maxProfit2(prices) == 0
 
         
